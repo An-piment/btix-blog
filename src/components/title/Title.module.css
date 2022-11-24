@@ -1,0 +1,11 @@
+.mainBox {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 100vw;
+	background: rgb(155, 154, 154);
+}
+
+.logo {
+	width: 100px;
+}
