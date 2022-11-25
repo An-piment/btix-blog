@@ -1,6 +1,6 @@
 ## Projeto Btix Blog para o processo seletivo da Btix
 
-![image](https://user-images.githubusercontent.com/112974999/204011923-6af42c74-9285-4d76-b7fe-c9a8fc8e603b.png)
+![image](https://user-images.githubusercontent.com/112974999/204012028-43fbf369-70f7-4c22-88e4-2f484c199c84.png)
 
 # PARA INICIAR O PROJETO
 
