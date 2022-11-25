@@ -1,5 +1,5 @@
 import styles from './Title.module.css'
-import logo from './logo.png';
+import logo from '../images/logo.png';
 
 const Title = ({ text }) => {
 	return (

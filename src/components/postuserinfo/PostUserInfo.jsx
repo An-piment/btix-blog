@@ -1,5 +1,5 @@
 import styles from './PostUserInfo.module.css';
-import userIcon from './user-icon.svg';
+import userIcon from '../images/user-icon.svg';
 
 const PostUserInfo = ({ userName }) => {
 		return (
