@@ -18,8 +18,8 @@ npm start
 
 Realizado um blog que lê os posts e comentários de uma API e organiza na tela do usuário. O projeto utilizou os conceitos de:
 
-•JavaScript
+• JavaScript
 
-•React.js
+• React.js
 
-•CSS
+• CSS
