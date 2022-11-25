@@ -6,16 +6,17 @@
 	margin-left: auto;
 }
 
-h4 {
-	margin-left: 10px;
-}
-
 hr {
   border: 1px solid black;
 }
 
-p {
-	margin-left: 10px;
+.postMessage {
 	font-size: 20px;
-  line-break: auto;
+	margin-left: 10px;
+}
+
+.postTitle{
+	font-size: 25px;
+	margin-top: 10px;
+	margin-left: 10px;
 }

@@ -12,16 +12,16 @@ const Posts = () => {
 	const [ isLoading, setLoading ] = useState(true);
 
 	useEffect (() => {
-		const fetchPosts = () => {
+		const fetchPosts = async () => {
 			const API_URL = "https://jsonplaceholder.typicode.com/posts";
-			Axios
+			await Axios
 				.get(API_URL)
 				.then((result) => setPosts(result.data));	
 		}
 
-		const fetchUsers = () => {
+		const fetchUsers = async () => {
 			const API_URL = 'https://jsonplaceholder.typicode.com/users/';
-			Axios
+			await Axios
 				.get(API_URL)
 				.then((result) => setUsers(result.data));		
 		}
