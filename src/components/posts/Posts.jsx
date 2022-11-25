@@ -3,7 +3,7 @@ import PostInfos from '../postinfos/PostInfos';
 import PostUserInfo from '../postuserinfo/PostUserInfo';
 import ButtonComments from '../buttoncomments/ButtonComments';
 import { useEffect, useState } from 'react';
-import styles from './Posts.module.css'
+import styles from './Posts.module.css';
 
 const Posts = () => {
 

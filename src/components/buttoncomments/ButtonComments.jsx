@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import Axios from 'axios';
 import Comments from '../comments/Comments';
-import styles from './ButtonComments.module.css'
+import styles from './ButtonComments.module.css';
 
 function ButtonComments({ postId }) {
 

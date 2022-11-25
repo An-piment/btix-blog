@@ -4,12 +4,14 @@ import './Comments.module.css';
 
 const Comments = ({ userName, userComment }) => {
 		return (
-			<div className={styles.commentBox}>		
-				<p className={styles.userInfos}><img className={styles.userLogo} src={logo} alt="" /> {userName}</p>
-				<hr></hr>
-				<p className={styles.userComments}>{userComment}</p>
-			</div>
-		)
+      <div className={styles.commentBox}>
+        <p className={styles.userInfos}>
+          <img className={styles.userLogo} src={logo} alt="" /> {userName}
+        </p>
+        <hr></hr>
+        <p className={styles.userComments}>{userComment}</p>
+      </div>
+    );
 	}
 
 export default Comments;
