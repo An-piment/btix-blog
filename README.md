@@ -1,6 +1,6 @@
 ## Projeto Btix Blog para o processo seletivo da Btix
 
-## PARA INICIAR O PROJETO
+# PARA INICIAR O PROJETO
 
 Para instalar as dependências do projeto utilize o comando:
 
@@ -14,12 +14,10 @@ Para iniciar o projeto utilize o comando:
 npm start
 ```
 
-## DESAFIO TÉCNICO - FRONT-END
+# DESAFIO TÉCNICO - FRONT-END
 
 Realizado um blog que le os posts e comentários de uma API. O projeto utilizou os conceitos de:
 
-JavaScript
-
-React.js
-
-CSS
+•JavaScript
+•React.js
+•CSS
