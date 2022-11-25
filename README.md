@@ -19,6 +19,8 @@ npm start
 
 Realizado uma página de blog com as seguitnes ferramentas
 
-JavaScript
-React.js
-CSS
+• JavaScript
+
+• React.js
+
+• CSS
