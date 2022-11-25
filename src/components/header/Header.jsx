@@ -1,12 +1,14 @@
-import React, { Component } from 'react';
 import Title from '../title/Title';
+import './Header.module.css'
 
-class Header extends Component {
-	render() {
-		return (
-			<Title>Btix Blog</Title>
-		)
-	}
+function Header() {
+	return (
+		<header>
+			<Title
+				text='Btix Blog'
+			/>
+		</header>
+	)
 }
 
 export default Header;
