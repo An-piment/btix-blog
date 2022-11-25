@@ -24,3 +24,5 @@ Realizado uma página de blog com as seguitnes ferramentas
 • React.js
 
 • CSS
+
+• Responsividade Mobile
