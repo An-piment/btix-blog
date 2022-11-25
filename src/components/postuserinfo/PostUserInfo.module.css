@@ -1,0 +1,13 @@
+.userIcon {
+	width: 40px;
+	margin-right: 10px;
+}
+
+.userName {
+	font-size: 20px;
+}
+
+.postHeaderParagraph {
+	display: flex;
+	align-items: center;
+}
