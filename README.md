@@ -1,4 +1,4 @@
-## Projeto Btix Blog para o processo seletivo da Btix
+# Projeto Btix Blog para o processo seletivo da Btix
 
 # PARA INICIAR O PROJETO
 
@@ -19,5 +19,7 @@ npm start
 Realizado um blog que le os posts e comentários de uma API. O projeto utilizou os conceitos de:
 
 •JavaScript
+
 •React.js
+
 •CSS
