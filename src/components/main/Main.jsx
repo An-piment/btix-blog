@@ -1,7 +1,7 @@
 import Posts from '../posts/Posts';
 import './Main.module.css';
 
-function Main () {
+const Main = () => {
 		return (
 			<main>
 				<Posts />

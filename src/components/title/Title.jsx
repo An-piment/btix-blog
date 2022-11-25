@@ -1,7 +1,7 @@
 import styles from './Title.module.css'
 import logo from './logo.png';
 
-function Title({ text }) {
+const Title = ({ text }) => {
 	return (
 		<div className={styles.mainBox}>
 			<img className={styles.logo} src={logo} alt="Btix Logo" />

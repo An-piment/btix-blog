@@ -1,6 +1,12 @@
-function PostInfos () {
+import styles from './PostInfos.module.css';
+
+const PostInfos = ({ title, message }) => {
 		return (
-			<p></p>
+			<div className={styles.mainMessageBox}>
+				<h4><span>Title:</span> {title}</h4>
+				<hr></hr>
+				<p>{message}</p>
+			</div>
 		)
 	}
 

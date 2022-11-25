@@ -1,25 +1,38 @@
 import Axios from 'axios';
-import PostInfos from '../postinfos/PostInfos'
+import PostInfos from '../postinfos/PostInfos';
+import PostUserInfo from '../postuserinfo/PostUserInfo';
 import { useEffect, useState } from 'react';
 import styles from './Posts.module.css'
-import userIcon from './user-icon.svg';
 
-function Posts() {
+const Posts = () => {
 	const [ posts, setPosts ] = useState([]);
-//	const [ username, setUserName ] = useState({})
+	const [ users, setUsers ] = useState([]);
 
 	useEffect (() => {
-		Axios
-			.get("https://jsonplaceholder.typicode.com/posts")
-			.then((result) => setPosts(result.data));
+		const fetchPosts = () => {
+			const API_URL = "https://jsonplaceholder.typicode.com/posts";
+			Axios
+				.get(API_URL)
+				.then((result) => setPosts(result.data));	
+		}
+
+		const fetchUsers = () => {
+			const API_URL = 'https://jsonplaceholder.typicode.com/users/';
+			Axios
+				.get(API_URL)
+				.then((result) => setUsers(result.data));		
+		}
+
+		fetchUsers();
+		fetchPosts();
 	})
 
 	return (
 		<div className ={styles.postMainBox}>
-			{posts.map(({ id, title, body }) => (
+			{posts.map(({ id, title, body, userId }) => (
 				<section key={`post${id}`} className={styles.postBox}>
-					<img className={styles.userIcon} src={userIcon} alt="User Profile" />
-					<PostInfos />
+					<PostUserInfo userName={users[userId - 1].name} />
+					<PostInfos title={title} message={body} />
 				</section>
 				))}
 		</div>
