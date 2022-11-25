@@ -8,3 +8,16 @@
 	margin-left: 100px;
 	margin-bottom: 20px;
 }
+
+@media only screen and (max-width: 420px) {
+	.comments {
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+		width: 100vw;
+		gap: 20px;
+		margin-top: 20px;
+		margin-bottom: 20px;
+		margin-left: 0px;
+	}
+}

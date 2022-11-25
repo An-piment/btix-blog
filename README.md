@@ -1,6 +1,8 @@
-## Projeto Btix Blog para o processo seletivo da Btix
+# Projeto Btix Blog para o processo seletivo da Btix
 
-# PARA INICIAR O PROJETO
+![image](https://user-images.githubusercontent.com/112974999/204012028-43fbf369-70f7-4c22-88e4-2f484c199c84.png)
+
+## PARA INICIAR O PROJETO
 
 Para instalar as dependências do projeto utilize o comando:
 
@@ -13,10 +15,12 @@ Para rodar o projeto utilize o comando:
 npm start
 ```
 
-# DESAFIO TÉCNICO - FRONT-END
+## DESAFIO TÉCNICO - FRONT-END
 
 Realizado uma página de blog com as seguitnes ferramentas
 
-JavaScript
-React.js
-CSS
+• JavaScript
+
+• React.js
+
+• CSS

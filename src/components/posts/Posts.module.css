@@ -14,3 +14,21 @@
 	border-radius: 15px;
 	box-shadow: 10px 10px 5px #aaaaaa;
 }
+
+@media only screen and (max-width: 420px) {
+	.postMainBox {
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+		gap: 30px;
+		padding-top: 150px;
+	}
+	
+	.postBox {
+		width: 100vw;
+		min-height: 350px;
+		border: 2px solid black;
+		border-radius: 15px;
+		box-shadow: 10px 10px 5px #aaaaaa;
+	}
+}
