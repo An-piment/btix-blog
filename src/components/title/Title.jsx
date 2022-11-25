@@ -1,4 +1,4 @@
-import styles from './Title.module.css'
+import styles from './Title.module.css';
 import logo from '../images/logo.png';
 
 const Title = ({ text }) => {

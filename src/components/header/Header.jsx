@@ -1,12 +1,10 @@
 import Title from '../title/Title';
-import './Header.module.css'
+import './Header.module.css';
 
 function Header() {
 	return (
 		<header>
-			<Title
-				text='Btix Blog'
-			/>
+			<Title text='Btix Blog' />
 		</header>
 	)
 }
