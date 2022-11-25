@@ -21,3 +21,18 @@
 	font-size: 20px;
 	margin-left: 10px;
 }
+
+@media only screen and (max-width: 420px) {
+	.commentBox {
+		width: 70vw;
+	}
+
+	.userInfos {
+		font-size: 15px;
+	}
+	
+	.userComments {
+		font-size: 15px;
+	}
+	
+}

@@ -2,3 +2,10 @@ main {
 	display: flex;
 	justify-content: center;
 }
+
+
+@media only screen and (max-width: 420px) {
+	main {
+		width: 100vw;
+	}
+}
